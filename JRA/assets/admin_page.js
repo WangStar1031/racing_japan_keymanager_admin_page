@@ -27,6 +27,7 @@
 			console.log(preToken);
 			$.post("JRA/api_accountManager.php", {action:"remove", email:email, preToken: preToken}, function(data){
 				console.log(data);
+				document.location.reload();
 			});
 		}
 	}
