@@ -46,7 +46,7 @@ require_once __DIR__ . "/JRA/makeKey.php";
 	</div>
 	<h2>Joined Users<span class="btn btn-danger" style="margin-left: 20%; font-size: 15px; cursor: pointer;" data-toggle="modal" data-target="#authModal">Change Authentication</span><!-- <span class="btn btn-danger" style="margin-left: 20px; font-size: 15px; cursor: pointer;" data-toggle="modal" data-target="#paymentModal">Edit Payment</span> --></h2>
 	<br>
-	<button class="btn btn-primary" data-toggle="modal" data-target="#addNewModal">Add New</button>
+	<!-- <button class="btn btn-primary" data-toggle="modal" data-target="#addNewModal">Add New</button> -->
 	<br>
 	<br>
 	<table class="col-lg-12">
@@ -124,7 +124,7 @@ require_once __DIR__ . "/JRA/makeKey.php";
 	?>
 	</table>
 	<br>
-	<button class="btn btn-primary" data-toggle="modal" data-target="#addNewModal">Add New</button>
+	<!-- <button class="btn btn-primary" data-toggle="modal" data-target="#addNewModal">Add New</button> -->
 </div>
 
 <!-- Pass Change Modal -->
